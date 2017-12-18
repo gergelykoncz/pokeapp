@@ -10,7 +10,7 @@ define(['pokemon'], function (Pokemon) {
 			types: [
 				{
 					type: {
-						name: 'plant'
+						name: 'planttty'
 					}
 				},
 				{
