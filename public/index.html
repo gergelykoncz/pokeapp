@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PokéApp!</title>
+    <!-- build:css css/vendor.css-->
+    <link href="vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <!-- build:css css/dist.css-->
+    <link href="src/css/site.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <link rel="icon" type="image/png" href="favico.png" />
+</head>
+<body ng-app="PokeApp" scroll>
+<div class="container" ng-controller="PokeCtrl">
+    <h1>PokéApp!</h1>
+    <table class="table table-striped poke-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Moves</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<script data-main="src/js/require-config" src="vendor/requirejs/require.js"></script>
+</body>
+</html>
