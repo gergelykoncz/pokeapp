@@ -38,7 +38,7 @@ define(['pokemon'], function (Pokemon) {
 			expect(balbasaur.id).toEqual(1);
 			expect(balbasaur.name).toEqual('balbasaur');
 			expect(balbasaur.image).toEqual('balbasaur.png');
-			expect(balbasaur.type[0]).toEqual('plant');
+			expect(balbasaur.type[0]).toEqual('planttty');
 			expect(balbasaur.type[1]).toEqual('poison');
 			expect(balbasaur.moves[0]).toEqual('cut');
 			expect(balbasaur.moves[1]).toEqual('leer');
