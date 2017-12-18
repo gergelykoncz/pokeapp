@@ -54,7 +54,7 @@ define(['pokemon'], function (Pokemon) {
 		describe('getType prototype function', function () {
 			it('should return comma-delimited list of types', function () {
 				var balbasaur = new Pokemon(rawData);
-				expect(balbasaur.getTypes()).toEqual('plant, poison');
+				expect(balbasaur.getTypes()).toEqual('planttty, poison');
 			});
 		});
 	});
